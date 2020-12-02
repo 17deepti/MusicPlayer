@@ -1,0 +1,269 @@
+h4,h5,h2,p{
+    color: white;
+
+}
+h5{
+    display: inline-block;
+    text-align: center;
+}
+.container-fluid {
+     margin: 0;
+     padding: 0;
+ }
+ 
+.row {
+     margin: 10px;
+     padding: 0;
+ }
+ 
+ 
+h1{
+   background-color: blueviolet;
+ }
+
+.img_height{
+    height:150px;
+    width:150px;
+      
+}
+
+#img-rec{
+    height: 30px;
+    width: 30px;
+}
+
+.img_circle{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   padding: 0%;
+
+}
+
+#img_shadow:hover{
+    box-shadow:0px 0px 0px 5px blue;
+}
+
+
+.img_square{
+    height: 300px;
+    width: 320px;
+
+
+}
+
+.name-margin{
+    margin-top: 40px;
+}
+
+.img_rec{
+     height: 100px;
+     width: 100px;
+}
+
+body{
+
+    background-color:black;
+
+}
+
+.playlist{
+   list-style-type: none;
+   color:white;
+    
+}
+
+#linkin
+{
+    margin-left: 88px;
+    margin-bottom: 40px;
+    height: 400px;
+    width:1000px;
+    background:linear-gradient(black,blue);
+
+}
+
+#new {
+    padding: 50px 70px 10px 50px;
+}
+
+#new img
+{
+    width: 70%;
+    height: 400px;
+    margin:40px;
+}
+ 
+.linkin_img{
+ width: 333px;
+ height: 400px;
+
+
+} 
+
+.p_linkin {
+    list-style-type: none;
+}
+
+.p_list{
+
+width: 1000px;
+height: 40px;
+margin: 20px;
+}
+.p_list:hover{
+
+background: linear-gradient(black,blue);
+}
+#img_h{
+    height:40px;
+    width: 40px;
+}
+
+main{
+
+    display: inline-block;
+    width: 78%;
+}
+
+.aside{
+    width: 400px;
+    height:1000px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+.aside li{
+
+    height:40px;
+}
+.aside li h3{
+  background:linear-gradient(black,blue);
+}
+
+.aside li:hover{
+  background:linear-gradient(black,blue);
+}
+
+.playlist li img{
+    height:40px;
+    width:40px;
+}
+h3
+{
+    color: white;
+}
+
+
+/* carasoul */
+
+.carousel {
+    position: relative;
+    height: 400px;
+    width: 100%;
+
+  }
+  
+.slides {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 3em;
+    color: white;
+    line-height: 400px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1000ms;
+  }
+  
+.slide:nth-child(1) {
+      background-image: url("assets/chain1.jpg");
+      background-size: cover;
+      opacity: 1;
+  }
+  
+.slide:nth-child(2) {
+      background-image: url("assets/chain.jpeg");
+      background-size: cover;
+      opacity: 1;
+  }
+  
+.slide:nth-child(3) {
+      background-image: url("assets/senorita.jpg");
+      background-size: cover;
+      opacity: 1; 
+     }
+  
+.slide[data-state=active] {
+    display: block;
+  }
+  
+.indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+  }
+  
+.indicator {
+      cursor: pointer;
+  }
+
+.recent_play {
+      padding: 60px;
+      padding-bottom: 0;
+  }
+
+
+.dot-menu img 
+  {
+      height: 50px;
+      width: 50px;
+      transform: rotate(90deg);
+  }
+
+.dot-menu p {
+    margin-left: 10px;
+}
+
+audio {
+    height: 100px; 
+    width: 100%;
+}
+
+
+#pButton {
+    float: left; }
+  
+  #timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1); }
+  
+  #pButton {
+    margin-top: 12px;
+    cursor: pointer; 
+    color: white;}
+  
+  #playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: rgb(255, 255, 255);
+    cursor: pointer; }
+  
